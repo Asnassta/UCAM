@@ -1551,6 +1551,8 @@ body.hidden {
     max-height: calc(100vh - 20px); }
   .popup__title {
     margin-bottom: 30px; }
+  .popup__content {
+    padding: 30px 15px 70px; }
   .popup .form__input textarea {
     height: 90px; } }
 
