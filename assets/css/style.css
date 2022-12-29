@@ -1155,8 +1155,6 @@ body.hidden {
   color: #8B8B8B;
   line-height: 1.36;
   border-radius: 0;
-  /*box-shadow: none;
-			filter: drop-shadow(0 0 0 #fff);*/
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
