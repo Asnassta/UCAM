@@ -1144,6 +1144,7 @@ body.hidden {
   margin-bottom: 5px; }
 
 .form__input input, .form__input textarea {
+  display: block;
   width: 100%;
   padding: 10px 17px;
   background-color: #ffffff;
@@ -1552,7 +1553,7 @@ body.hidden {
   .popup__title {
     margin-bottom: 30px; }
   .popup__content {
-    padding: 30px 15px 70px; }
+    padding: 40px 15px 70px; }
   .popup .form__input textarea {
     height: 90px; } }
 

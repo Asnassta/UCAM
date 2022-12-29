@@ -796,6 +796,7 @@ body.hidden {
 	}
 	&__input {
 		input, textarea {
+			display: block;
 			width: 100%;
 			padding: 10px 17px;
 			background-color: $wh;
@@ -1319,7 +1320,7 @@ body.hidden {
 			margin-bottom: 30px;
 		}
 		&__content {
-			padding: 30px 15px 70px;
+			padding: 40px 15px 70px;
 		}
 		.form__input {
 			textarea {
