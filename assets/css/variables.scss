@@ -1,0 +1,16 @@
+$ff: 'Open Sans', sans-serif;
+$lh: 1.36;
+$wh: #ffffff;
+$bl: #000000;
+$blue: #004379;
+$yellow: #EDAB00;
+$d-yellow: #E0A105;
+$gray: #8B8B8B;
+$gray2: #A4A4A4;
+
+$maxWidth: 1920;
+@mixin adaptive-font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}

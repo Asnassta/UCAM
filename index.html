@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<title>UCAM</title>
+</head>
+<body>
+	<!--Sprite-->
+	<svg style="display: none;">
+		<symbol id="search-icon" viewBox="0 0 24 24">
+			<g>
+				<path d="M18.9 20.3L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.146 15.371 4.888 14.113C3.62933 12.8543 3 11.3167 3 9.5C3 7.68333 3.62933 6.14567 4.888 4.887C6.146 3.629 7.68333 3 9.5 3C11.3167 3 12.8543 3.629 14.113 4.887C15.371 6.14567 16 7.68333 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L20.325 18.925C20.5083 19.1083 20.6 19.3333 20.6 19.6C20.6 19.8667 20.5 20.1 20.3 20.3C20.1167 20.4833 19.8833 20.575 19.6 20.575C19.3167 20.575 19.0833 20.4833 18.9 20.3ZM9.5 14C10.75 14 11.8127 13.5627 12.688 12.688C13.5627 11.8127 14 10.75 14 9.5C14 8.25 13.5627 7.18733 12.688 6.312C11.8127 5.43733 10.75 5 9.5 5C8.25 5 7.18733 5.43733 6.312 6.312C5.43733 7.18733 5 8.25 5 9.5C5 10.75 5.43733 11.8127 6.312 12.688C7.18733 13.5627 8.25 14 9.5 14Z"/>
+			</g>
+		</symbol>
+		<symbol id="arrow-small" viewBox="0 0 8 12">
+			<g>
+				<path d="M7 11L2 6L7 1" stroke-width="2" stroke-linecap="round"/>
+			</g>
+		</symbol>
+		<symbol id="close-icon" viewBox="0 0 10 10">
+			<g>
+				<path d="M1 1L9 9" stroke-width="2"/>
+				<path d="M9 1L1 9" stroke-width="2"/>
+			</g>
+		</symbol>
+	</svg>
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a href="/" class="header__logo">
+						<img src="assets/images/logo.svg" alt="">
+					</a>
+					<div class="header__menu">
+						<nav class="header__nav">
+							<a href="#" class="header__link" data-scroll="about">Об университете</a>
+							<a href="#" class="header__link" data-scroll="why">Почему UCAM</a>
+							<a href="#" class="header__link" data-scroll="programm">Программы</a>
+							<a href="#" class="header__link" data-scroll="testimonial">Отзывы</a>
+						</nav>
+						<div class="header__buttons">
+							<a href="#" class="header__btn open-popup" data-popup="popup-application">Получить консультацию</a>
+							<a href="#" class="header__search">
+								<svg>
+									<use xlink:href="#search-icon"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="burger">
+						<div class="burger__item"></div>
+					</div>
+				</div>
+			</div>
+		</header><!--/header-->
+		<main class="main">
+			<section class="intro section">
+				<div class="container">
+					<h1 class="intro__title">Получи образование высокого качества в <br> <span>Испании</span></h1>
+					<div class="intro__block">
+						<div class="intro__description">для отправки заявки заполните форму</div>
+						<a href="#" class="btn" data-scroll="application">Узнать больше</a>
+					</div>
+					<a href="#" class="intro__arrow" data-scroll="about">
+						<img src="assets/images/arrow-down.svg" alt="">
+					</a>
+				</div>
+			</section><!--/intro-->
+			<section class="about section" id="about">
+				<div class="container container_small">
+					<h2 class="title">
+						<span>Об университете</span>
+					</h2>
+					<div class="about__slider">
+						<div class="slider-arrows">
+							<div class="slider-arrow slider-arrow_prev">
+								<svg>
+									<use xlink:href="#arrow-small"></use>
+								</svg>
+							</div>
+							<div class="slider-arrow slider-arrow_next">
+								<svg>
+									<use xlink:href="#arrow-small"></use>
+								</svg>
+							</div>
+						</div><!--/slider-arrows-->
+						<div class="about__slider-wrapper">
+							<div class="about__slide">
+								<div class="about__photo">
+									<img src="assets/images/univercity-photo_1.png" alt="">
+								</div>
+							</div><!--/about__slide-->
+							<div class="about__slide">
+								<div class="about__photo">
+									<img src="assets/images/univercity-photo_1.png" alt="">
+								</div>
+							</div><!--/about__slide-->
+							<div class="about__slide">
+								<div class="about__photo">
+									<img src="assets/images/univercity-photo_1.png" alt="">
+								</div>
+							</div><!--/about__slide-->
+						</div>
+					</div><!--/about__slider-->
+					<div class="about__inner">
+						<div class="about__logo">
+							<img src="assets/images/logo_2.png" alt="">
+						</div>
+						<div class="about__info">
+							<div class="about__text">
+								<p><span class="yellow">UCAM Universidad Católica de Murcia</span> был основан в 1996 году как частный католический университет. Будучи открытым и интернациональным университетом, в котором обучается в общей сложности более 21 000 студентов (в наших 3 кампусах: </p>
+								<p><span>Мурсия, Картахена и Мадрид</span>, где около 11% наших студентов составляют иностранцы, UCAM предлагает 32 европейских официальных программы бакалавриата, 52 официальные программы магистратуры, 73 направления программ PhD и другие престижные звания на английском или испанском языке. </p>
+								<p><span>UCAM</span> также предлагает современную систему дистанционного обучения.</p>
+								<p><span>UCAM имеет особую культурно-историческую среду.</span> Его главный кампус находится на территории «Монастыря Лос-Херонимос», построенного в 18 веке, где старое здание в стиле барокко сочетается с современной инфраструктурой и лабораториями, чтобы предоставить студентам отличные условия для приобретения практических навыков. </p>
+								<p>Все направлено на пользу студентам, что является основной задачей университета, который предлагает такие учебные лаборатории, как стоматологическая клиника UCAM с площадью более 1.700 кв.м. и передовыми технологиями, являющаяся одной из самых современных клиник на юго-востоке Испании, или Интерактивный Анатомический Стол, являющийся одним из самых передовых инструментов медицинских исследований в мире, известный как виртуальный стол для препарирования, а также Аптека, которая оборудована для расширения возможностей для обучения и практики, Лингвистическая Лаборатория, и другие лаборатории и помещения, разработанные и оборудованные для различных факультетов.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--/about-->
+			<section class="why section" id="why">
+				<div class="container">
+					<h2 class="title title_left">
+						<span>Почему UCAM?</span>
+					</h2>
+					<div class="why__inner">
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_1.svg" alt="">
+							</div>
+							<div class="why__description"><span>10 место</span> в рейтинге университетов Европы за качество обучения <br>(Рейтинг Times Higher Education (THE))</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_2.svg" alt="">
+							</div>
+							<div class="why__description"><span>3-й частный университет </span> в Испании за глобальную и региональную репутацию и эффективность в исследованиях (Рейтинг US News)</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_3.svg" alt="">
+							</div>
+							<div class="why__description"><span>Общая оценка 4 звезды </span>в рейтинге QS Stars (Quacquarelli Symonds); Наивысшая оценка 5 звезд в категориях обучения, интернационализации, социальной ответственности и инклюзивности.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_4.svg" alt="">
+							</div>
+							<div class="why__description"><span>Метод обучения</span>, основанный на индивидуальном подходе к каждому студенту с формированием небольших групп на курсе.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_5.svg" alt="">
+							</div>
+							<div class="why__description"><span>Доступное обучение</span>  в доступном небольшом городе</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_6.svg" alt="">
+							</div>
+							<div class="why__description"><span>Один из первых университетов</span>, адаптировавших свои программы к Европейской Системе Качества Образования в соответствии с Болонским процессом.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_7.svg" alt="">
+							</div>
+							<div class="why__description"><span>Имеет около 450 </span> известных международных стратегических партнеров, включая ведущие колледжи и университеты мира.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_8.svg" alt="">
+							</div>
+							<div class="why__description"><span>Обязательные стажировки </span>при каждой программе.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_9.svg" alt="">
+							</div>
+							<div class="why__description"><span>Признан Университетом Спорта в Испании</span> благодаря наличию обширной нфраструктуры для занятия спортом.</div>
+						</div><!--/why__item-->
+						<div class="why__item">
+							<div class="why__icon">
+								<img src="assets/images/why-icon_10.svg" alt="">
+							</div>
+							<div class="why__description"><span>Расположение в солнечной Испании</span>, одной из самых популярных стран среди иностранных студентов.</div>
+						</div><!--/why__item-->
+					</div>
+				</div>
+			</section><!--/why-->
+			<section class="programm section" id="programm">
+				<div class="container">
+					<h2 class="title">
+						<span>Программы</span>
+					</h2>
+					<div class="programm__block">
+						<div class="programm__slider">
+							<div class="slider-arrows">
+								<div class="slider-arrow slider-arrow_prev">
+									<svg>
+										<use xlink:href="#arrow-small"></use>
+									</svg>
+								</div>
+								<div class="slider-arrow slider-arrow_next">
+									<svg>
+										<use xlink:href="#arrow-small"></use>
+									</svg>
+								</div>
+							</div><!--/slider-arrows-->
+							<div class="programm__slider-wrapper">
+								<div class="programm__slide">
+									<div class="programm__photo">
+										<img src="assets/images/programm-photo_1.png" alt="">
+									</div>
+								</div><!--/programm__slide-->
+								<div class="programm__slide">
+									<div class="programm__photo">
+										<img src="assets/images/programm-photo_1.png" alt="">
+									</div>
+								</div><!--/programm__slide-->
+							</div>
+						</div>
+						<div class="programm__nav">
+							<div class="tabs-nav">
+								<a href="#" onclick="javascript:tabs(1);return false;" class="t1 active">Bachelor’s Degree in Business Administration</a>
+								<a href="#" onclick="javascript:tabs(2);return false;"  class="t2">Bachelor´s Degree in Dentistry</a>
+								<a href="#" onclick="javascript:tabs(3);return false;"  class="t3">Bachelor’s Degree in Psychology</a>
+								<a href="#" onclick="javascript:tabs(4);return false;"  class="t4">Bachelor’s Degree in Physical Activity and Sport Sciences</a>
+								<a href="#" onclick="javascript:tabs(5);return false;"  class="t5">Bachelor’s Degree in Veterinary Medicine</a>
+							</div><!--/tabs-nav-->
+						</div>
+					</div>
+				</div>
+				<div class="container container_small">
+					<div class="programm__tabs">
+						<div class="tabs-block tab_1">
+							<div class="programm__inner">
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/en-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Язык обучения - <span>Английский</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/pin-icon.svg" alt="">
+									</div>
+									<div class="programm__description">На кампусе, <span>город Мурсия</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/eu-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Стоимость - <span>7,099.80€/год</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/calendar-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Длительность - <span>4 года</span></div>
+								</div><!--/programm__item-->
+							</div>
+							<div class="programm__info">
+								<div class="programm__text">
+									<p><span>Программа Bachelor's Degree in Business Administration</span> предназначен студентов, стремящихся к личному и всестороннему образованию и интересующихся экономическими, организационными и социальными аспектами деятельности компаний на международном уровне.</p>
+								</div>
+								<div class="programm-list">
+									<h3 class="programm-list__title">Программа предоставляет студентам:</h3>
+									<ul>
+										<li>Гарантированный опыт работы</li>
+										<li>Возможность запустить свой стартап</li>
+										<li>Обучение предпринимательству</li>
+										<li>Курсы испанского языка</li>
+										<li>Программы мобильности для иностранных студентов</li>
+									</ul>
+								</div>
+							</div>
+						</div><!--/tabs-block-->
+						<div class="tabs-block tab_2">
+							<div class="programm__inner">
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/en-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Язык обучения - <span>Английский</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/pin-icon.svg" alt="">
+									</div>
+									<div class="programm__description">На кампусе, <span>город Мурсия</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/eu-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Стоимость - <span>7,099.80€/год</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/calendar-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Длительность - <span>4 года</span></div>
+								</div><!--/programm__item-->
+							</div>
+							<div class="programm__info">
+								<div class="programm__text">
+									<p><span>Программа Bachelor's Degree in Business Administration</span> предназначен студентов, стремящихся к личному и всестороннему образованию и интересующихся экономическими, организационными и социальными аспектами деятельности компаний на международном уровне.</p>
+								</div>
+								<div class="programm-list">
+									<h3 class="programm-list__title">Программа предоставляет студентам:</h3>
+									<ul>
+										<li>Гарантированный опыт работы</li>
+										<li>Возможность запустить свой стартап</li>
+										<li>Обучение предпринимательству</li>
+										<li>Курсы испанского языка</li>
+										<li>Программы мобильности для иностранных студентов</li>
+									</ul>
+								</div>
+							</div>
+						</div><!--/tabs-block-->
+						<div class="tabs-block tab_3">
+							<div class="programm__inner">
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/en-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Язык обучения - <span>Английский</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/pin-icon.svg" alt="">
+									</div>
+									<div class="programm__description">На кампусе, <span>город Мурсия</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/eu-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Стоимость - <span>7,099.80€/год</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/calendar-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Длительность - <span>4 года</span></div>
+								</div><!--/programm__item-->
+							</div>
+							<div class="programm__info">
+								<div class="programm__text">
+									<p><span>Программа Bachelor's Degree in Business Administration</span> предназначен студентов, стремящихся к личному и всестороннему образованию и интересующихся экономическими, организационными и социальными аспектами деятельности компаний на международном уровне.</p>
+								</div>
+								<div class="programm-list">
+									<h3 class="programm-list__title">Программа предоставляет студентам:</h3>
+									<ul>
+										<li>Гарантированный опыт работы</li>
+										<li>Возможность запустить свой стартап</li>
+										<li>Обучение предпринимательству</li>
+										<li>Курсы испанского языка</li>
+										<li>Программы мобильности для иностранных студентов</li>
+									</ul>
+								</div>
+							</div>
+						</div><!--/tabs-block-->
+						<div class="tabs-block tab_4">
+							<div class="programm__inner">
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/en-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Язык обучения - <span>Английский</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/pin-icon.svg" alt="">
+									</div>
+									<div class="programm__description">На кампусе, <span>город Мурсия</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/eu-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Стоимость - <span>7,099.80€/год</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/calendar-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Длительность - <span>4 года</span></div>
+								</div><!--/programm__item-->
+							</div>
+							<div class="programm__info">
+								<div class="programm__text">
+									<p><span>Программа Bachelor's Degree in Business Administration</span> предназначен студентов, стремящихся к личному и всестороннему образованию и интересующихся экономическими, организационными и социальными аспектами деятельности компаний на международном уровне.</p>
+								</div>
+								<div class="programm-list">
+									<h3 class="programm-list__title">Программа предоставляет студентам:</h3>
+									<ul>
+										<li>Гарантированный опыт работы</li>
+										<li>Возможность запустить свой стартап</li>
+										<li>Обучение предпринимательству</li>
+										<li>Курсы испанского языка</li>
+										<li>Программы мобильности для иностранных студентов</li>
+									</ul>
+								</div>
+							</div>
+						</div><!--/tabs-block-->
+						<div class="tabs-block tab_5">
+							<div class="programm__inner">
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/en-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Язык обучения - <span>Английский</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/pin-icon.svg" alt="">
+									</div>
+									<div class="programm__description">На кампусе, <span>город Мурсия</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/eu-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Стоимость - <span>7,099.80€/год</span></div>
+								</div><!--/programm__item-->
+								<div class="programm__item">
+									<div class="programm__icon">
+										<img src="assets/images/calendar-icon.svg" alt="">
+									</div>
+									<div class="programm__description">Длительность - <span>4 года</span></div>
+								</div><!--/programm__item-->
+							</div>
+							<div class="programm__info">
+								<div class="programm__text">
+									<p><span>Программа Bachelor's Degree in Business Administration</span> предназначен студентов, стремящихся к личному и всестороннему образованию и интересующихся экономическими, организационными и социальными аспектами деятельности компаний на международном уровне.</p>
+								</div>
+								<div class="programm-list">
+									<h3 class="programm-list__title">Программа предоставляет студентам:</h3>
+									<ul>
+										<li>Гарантированный опыт работы</li>
+										<li>Возможность запустить свой стартап</li>
+										<li>Обучение предпринимательству</li>
+										<li>Курсы испанского языка</li>
+										<li>Программы мобильности для иностранных студентов</li>
+									</ul>
+								</div>
+							</div>
+						</div><!--/tabs-block-->
+					</div>
+				</div>
+			</section><!--/programm-->
+			<section class="testimonial section" id="testimonial">
+				<div class="container">
+					<h2 class="title">
+						<span>Отзывы студентов</span>
+					</h2>
+					<div class="testimonial__inner">
+						<div class="testimonial__item">
+							<a href="#" class="testimonial__video">
+								<div class="testimonial__content">
+									<img src="assets/images/testimonial_1.png" alt="">
+								</div>
+								<div class="testimonial__btn">
+									<img src="assets/images/play.svg" alt="">
+								</div>
+							</a>
+							<div class="testimonial-autor">
+								<div class="testimonial-autor__photo">
+									<img src="assets/images/testimonial-autor_1.png" alt="">
+									<div class="testimonial-autor__icon">
+										<img src="assets/images/youtobe.svg" alt="">
+									</div>
+								</div>
+								<div class="testimonial-autor__info">
+									<div class="testimonial-autor__title">Testimonial</div>
+									<div class="testimonial-autor__name">United States</div>
+								</div>
+							</div><!--/testimonial-autor-->
+						</div><!--/testimonial__item-->
+						<div class="testimonial__item">
+							<a href="#" class="testimonial__video">
+								<div class="testimonial__content">
+									<img src="assets/images/testimonial_2.png" alt="">
+								</div>
+								<div class="testimonial__btn">
+									<img src="assets/images/play.svg" alt="">
+								</div>
+							</a>
+							<div class="testimonial-autor">
+								<div class="testimonial-autor__photo">
+									<img src="assets/images/testimonial-autor_2.png" alt="">
+									<div class="testimonial-autor__icon">
+										<img src="assets/images/youtobe.svg" alt="">
+									</div>
+								</div>
+								<div class="testimonial-autor__info">
+									<div class="testimonial-autor__title">Testimonial</div>
+									<div class="testimonial-autor__name">MENA Students</div>
+								</div>
+							</div><!--/testimonial-autor-->
+						</div><!--/testimonial__item-->
+					</div>
+				</div>
+			</section><!--/testimonial-->
+			<section class="life">
+				<div class="container">
+					<h2 class="title">
+						<span>Студенческая жизнь UCAM</span>
+					</h2>
+				</div>
+				<div class="life__inner">
+					<div class="life__item life__item_big">
+						<div class="life__photo">
+							<img src="assets/images/student-photo_1.png" alt="">
+						</div>
+						<div class="life__tag">Culture</div>
+						<div class="life__description">UCAM international students: Welcome to Murcia!</div>
+					</div><!--/life__item-->
+					<div class="life__col">
+						<div class="life__item">
+							<div class="life__photo">
+								<img src="assets/images/student-photo_2.png" alt="">
+							</div>
+							<div class="life__tag">sports</div>
+							<div class="life__description">UCAM international students: Welcome to Murcia!</div>
+						</div><!--/life__item-->
+						<div class="life__item">
+							<div class="life__photo">
+								<img src="assets/images/student-photo_3.png" alt="">
+							</div>
+							<div class="life__tag">Education</div>
+							<div class="life__description">UCAM international students: Welcome to Murcia!</div>
+						</div><!--/life__item-->
+					</div><!--/life__col-->
+					<div class="life__col">
+						<div class="life__item">
+							<div class="life__photo">
+								<img src="assets/images/programm-photo_1.png" alt="">
+							</div>
+							<div class="life__tag">Education</div>
+							<div class="life__description">UCAM international students: Welcome to Murcia!</div>
+						</div><!--/life__item-->
+						<div class="life__item">
+							<div class="life__photo">
+								<img src="assets/images/student-photo_5.png" alt="">
+							</div>
+							<div class="life__tag">campus</div>
+							<div class="life__description">UCAM international students: Welcome to Murcia!</div>
+						</div><!--/life__item-->
+					</div><!--/life__col-->
+				</div>
+			</section><!--/life-->
+			<section class="application" id="application">
+				<div class="container">
+					<h2 class="title title_left">
+						<span>Заполните форму</span>
+					</h2>
+				</div>
+				<div class="application__block">
+					<div class="container">
+						<div class="application__inner">
+							<div class="application__info">
+								<div class="application__description">и получите бесплатную консультацию от представителя UCAM</div>
+								<div class="application__logo">
+									<img src="assets/images/logo.svg" alt="">
+								</div>
+								<div class="application__photo">
+									<img src="assets/images/photo-collage.png" alt="">
+								</div>
+							</div>
+							<div class="application__form">
+								<form action="#" class="form">
+									<h3 class="form__title">Ваши данные</h3>
+									<div class="form__block mb-20">
+										<div class="form__flexbox">
+											<div class="form__item form__item_half">
+												<div class="form__description">Имя*</div>
+												<div class="form__input">
+													<input type="text" placeholder="Имя*">
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item form__item_half">
+												<div class="form__description">Фамилия*</div>
+												<div class="form__input">
+													<input type="text" placeholder="Фамилия*">
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item">
+												<div class="form__description">Email*</div>
+												<div class="form__input">
+													<input type="email" placeholder="Email*">
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item">
+												<div class="form__description">Страна*</div>
+												<div class="form__input">
+													<input type="text" placeholder="Страна*">
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item">
+												<div class="form__description">Телефон*</div>
+												<div class="form__input form__input_phone">
+													<input type="text">
+												</div>
+											</div><!--/form__item-->
+										</div>
+									</div>
+									<div class="form__block">
+										<div class="form__flexbox">
+											<div class="form__item">
+												<div class="form__description">В какой программе Вы заинтересованы?*</div>
+												<div class="form__select">
+													<select>
+														<option value="0">Университетское образование </option>
+														<option value="1">Университетское образование </option>
+														<option value="2">Университетское образование </option>
+														<option value="3">Университетское образование </option>
+													</select>
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item">
+												<div class="form__description">Ваш вопрос*</div>
+												<div class="form__input">
+													<textarea placeholder="Напишите ваш вопос"></textarea>
+												</div>
+											</div><!--/form__item-->
+										</div>
+									</div>
+									<div class="form-agree">
+										<input type="checkbox" id="agree-check">
+										<label for="agree-check">
+											<span class="form-agree__check"></span>
+											<span class="form-agree__description">Я принимаю <a href="#"> условия и положения</a></span>
+										</label>
+										<a href="#" class="form-agree__icon">
+											<img src="assets/images/info-icon.svg" alt="">
+										</a>
+									</div>
+									<button type="submit" class="form__btn">Отправить запрос</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--/application-->
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<a href="#" class="footer__logo">
+					<img src="assets/images/logo-blue.png" alt="">
+				</a>
+				<div class="footer__social social">
+					<a href="#" class="social__icon" target="blank">
+						<img src="assets/images/fb-icon.svg" alt="">
+					</a>
+					<a href="#" class="social__icon" target="blank">
+						<img src="assets/images/in-icon.svg" alt="">
+					</a>
+					<a href="#" class="social__icon" target="blank">
+						<img src="assets/images/twit-icon.svg" alt="">
+					</a>
+					<a href="#" class="social__icon" target="blank">
+						<img src="assets/images/yt-icon.svg" alt="">
+					</a>
+					<a href="#" class="social__icon" target="blank">
+						<img src="assets/images/inst-icon.svg" alt="">
+					</a>
+				</div><!--/social-->
+				<div class="footer__links">
+					<a href="#" class="footer__link" target="blank">Официальный сайт</a>
+					<a href="#" class="footer__link" target="blank">Политика конфиденциальности.</a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<div class="footer-copyright__text">© 2022 Все права защищены.</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="popup popup-application">
+			<div class="closex"></div>
+			<div class="popup__inner">
+				<span class="popup__close">
+					<svg>
+						<use xlink:href="#close-icon"></use>
+					</svg>
+				</span>
+				<div class="popup__box">
+					<div class="popup__content">
+						<h2 class="popup__title">Для отправки заявки заполните форму</h2>
+						<form action="#" class="form">
+							<h3 class="form__title">Ваши данные</h3>
+							<div class="form__inner">
+								<div class="form__block">
+									<div class="form__flexbox">
+										<div class="form__item form__item_half">
+											<div class="form__description">Имя*</div>
+											<div class="form__input">
+												<input type="text" placeholder="Имя*">
+											</div>
+										</div><!--/form__item-->
+										<div class="form__item form__item_half">
+											<div class="form__description">Фамилия*</div>
+											<div class="form__input">
+												<input type="text" placeholder="Фамилия*">
+											</div>
+										</div><!--/form__item-->
+										<div class="form__item">
+											<div class="form__description">Email*</div>
+											<div class="form__input">
+												<input type="email" placeholder="Email*">
+											</div>
+										</div><!--/form__item-->
+										<div class="form__item">
+											<div class="form__description">Страна*</div>
+											<div class="form__input">
+												<input type="text" placeholder="Страна*">
+											</div>
+										</div><!--/form__item-->
+										<div class="form__item">
+											<div class="form__description">Телефон*</div>
+											<div class="form__input form__input_phone">
+												<input type="text">
+											</div>
+										</div><!--/form__item-->
+									</div>
+								</div>
+								<div class="form__block">
+									<div class="form__flexbox">
+											<div class="form__item">
+												<div class="form__description">В какой программе Вы заинтересованы?*</div>
+												<div class="form__select">
+													<select>
+														<option value="0">Университетское образование </option>
+														<option value="1">Университетское образование </option>
+														<option value="2">Университетское образование </option>
+														<option value="3">Университетское образование </option>
+													</select>
+												</div>
+											</div><!--/form__item-->
+											<div class="form__item">
+												<div class="form__description">Ваш вопрос*</div>
+												<div class="form__input">
+													<textarea placeholder="Напишите ваш вопос"></textarea>
+												</div>
+											</div><!--/form__item-->
+									</div>
+									<div class="form-agree">
+										<input type="checkbox" id="agree-check">
+										<label for="agree-check">
+											<span class="form-agree__check"></span>
+											<span class="form-agree__description">Я принимаю <a href="#"> условия и положения</a></span>
+										</label>
+										<a href="#" class="form-agree__icon">
+											<img src="assets/images/info-icon.svg" alt="">
+										</a>
+									</div>
+									<button type="submit" class="form__btn">Отправить запрос</button>
+								</div>
+							</div>
+						</form>
+					</div>
+    	    	</div>
+			</div>
+		</div><!--/popup-form-->
+	</div>
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
