@@ -873,6 +873,7 @@ body.hidden {
     margin-bottom: 35px; }
 
 .testimonial__video {
+  display: block;
   position: relative; }
   .testimonial__video:hover .testimonial__btn {
     background-color: rgba(0, 0, 0, 0.5); }
@@ -1145,6 +1146,7 @@ body.hidden {
 .form__input input, .form__input textarea {
   width: 100%;
   padding: 10px 17px;
+  background-color: #ffffff;
   border: 1px solid #A4A4A4;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1211,6 +1213,7 @@ body.hidden {
     width: 100%;
     padding: 10px 30px 10px 17px;
     border: 1px solid #A4A4A4;
+    background-color: #ffffff;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 300;

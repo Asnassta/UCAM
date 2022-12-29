@@ -521,6 +521,7 @@ body.hidden {
 		}
 	}
 	&__video {
+		display: block;
 		position: relative;
 		&:hover {
 			.testimonial__btn {
@@ -797,6 +798,7 @@ body.hidden {
 		input, textarea {
 			width: 100%;
 			padding: 10px 17px;
+			background-color: $wh;
 			border: 1px solid $gray2;
 			font-family: $ff;
 			font-size: 14px;
@@ -853,6 +855,7 @@ body.hidden {
 			width: 100%;
 			padding: 10px 30px 10px 17px;
 			border: 1px solid $gray2;
+			background-color: $wh;
 			font-family: $ff;
 			font-size: 14px;
 			font-weight: 300;
