@@ -1400,8 +1400,7 @@ body.hidden {
     padding: 50px 100px 70px; }
   .popup .form__input textarea {
     height: 160px;
-    opacity: 1;
-    z-index: 1; }
+    opacity: 1; }
 
 /*============/popup==========*/
 /*============Adaptive==========*/
@@ -1551,7 +1550,9 @@ body.hidden {
     top: 10px;
     max-height: calc(100vh - 20px); }
   .popup__title {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .popup .form__input textarea {
+    height: 90px; } }
 
 @media (max-width: 546px) {
   .slider-arrow {

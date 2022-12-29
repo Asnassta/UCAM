@@ -1045,7 +1045,6 @@ body.hidden {
 		textarea {
 			height: 160px;
 			opacity: 1;
-			z-index: 1;
 		}
 	}
 }
@@ -1318,6 +1317,11 @@ body.hidden {
 		}
 		&__title {
 			margin-bottom: 30px;
+		}
+		.form__input {
+			textarea {
+				height: 90px;
+			}
 		}
 	}
 }
