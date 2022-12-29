@@ -1399,7 +1399,9 @@ body.hidden {
   .popup__content {
     padding: 50px 100px 70px; }
   .popup .form__input textarea {
-    height: 160px; }
+    height: 160px;
+    opacity: 1;
+    z-index: 1; }
 
 /*============/popup==========*/
 /*============Adaptive==========*/

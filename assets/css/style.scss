@@ -1044,6 +1044,8 @@ body.hidden {
 	.form__input {
 		textarea {
 			height: 160px;
+			opacity: 1;
+			z-index: 1;
 		}
 	}
 }
